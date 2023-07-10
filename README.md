@@ -1,4 +1,4 @@
-# Bayesian_bandits
+# Bayesian bandits
 
 We implement a bayesian Reinforcement Learning algorithm. Suppose you are at the casino and in some of bandits (slot machines) there is a higher probability of winning. We aim to find the bandit in which we are more likely to win. For example, take four bandits that have $p=[0.2, \, 0.4, \, 0.6, \, 0.8]$ as winning probabilities.
 
