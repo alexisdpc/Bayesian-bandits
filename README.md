@@ -6,7 +6,7 @@ The aim is to find the winning rate of each bandit. We can use Bayes theorem and
 
 $$ p(\theta |X) = \frac{p(X|\theta) \, p(\theta)}{p(X)}, $$
 
-where $X$ is the data collected and we aim to find the parameter $\theta$. If the prior is a Beta distribution and the likelihood is  Binomial then it can be shown that the posterior will also be a Beta distribution. Therefore, the Beta distribution is the conjugate distribution of the Binomial distribution
+where $X$ is the data collected and we aim to find the parameter $\theta$. If the prior is a Beta distribution and the likelihood is a Binomial then it can be shown that the posterior will also be a Beta distribution. Therefore, the Beta distribution is the conjugate distribution of the Binomial distribution
 
 $$ p(\theta)  = {\rm Beta}(\alpha, \beta) $$
 
